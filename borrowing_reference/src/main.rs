@@ -25,8 +25,8 @@ fn main() {
     let w = &y;
     let v = &z;
     let u = &z;
-    let mut sum = &y + &z + &x;
-    sum *= &z * &x;
+    let mut sum = w + u + v;
+    sum *= v * v * w * w * u * u;
     println!("{x} {y} {z} {w} {u} {v} {sum}");
 }
 
